@@ -36,7 +36,7 @@ int main(){
 		hero.newTurn();			
 		mons.showStatus();
 		drawScene(player_action,p,monster_action,m);
-		hero.showStatus();		
+		hero.showStatus();
 		cout << "[A] Attack [H] Heal [G] Guard [D] Dodge [C] Change Equipment [E] Exit";
 		cout << "\n[Turn " << turn_count << "] Enter your action: ";
 		cin >> player_action;
